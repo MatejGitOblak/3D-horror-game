@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escape Room</title>
+    <link rel="stylesheet" type="text/css" href="../common/style.css">
+    <script type="text/javascript" src="../../lib/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="../../lib/dat.gui.min.js"></script>
+    <script type="module" src="Game.js"></script>
+</head>
+<body>
+    <div class="health-bar">
+        <img src="../common/images/heart.png" alt="">
+        <h1 id="healthCount">5</h1>
+    </div>
+    <audio src="../common/sounds/doorClose.ogg" muted="muted" class=".audio" id="neki"></audio>
+    <div class="fullscreen">
+        <canvas></canvas>
+    </div>
+    <div class="papir1" id="papir1">
+        <img src="../common/images/papir.jpg" alt="">
+        <div class="centered">
+            <h1>CODE</h1>
+            <h2>The answer to life the universe and everything.</h2>
+        </div>
+    </div>
+    <div class="overlay1" id="overlay1">
+        <h1>Clue</h1>
+        <p>Letters are numbers and numbers are letters,<br>
+            the order in which you use it, is what matters.</p>
+        8272
+    </div>
+    <div class="overlay2" id="overlay2">
+        <h1>Clue</h1>
+        <p>It gets really cold at night here.</p>
+    </div>
+    <div class="overlay3" id="overlay3">
+        <h1>Clue</h1>
+        <p>You use it everyday, yet you are still scared of it</p>
+    </div>
+    <div class="overlay4" id="overlay4">
+        <h1>Clue</h1>
+        <p>A spine no knees
+            Full of stories</p>
+    </div>
+    <div class="overlay5" id="overlay5">
+        <h1>YOU ESCAPED... OR HAVE YOU?</h1>
+    </div>
+    <div class="code1" id="code1">
+        <h1><input type="text" id="in1" placeholder="Code" autocomplete="off"></h1>
+        <button id="button1">UNLOCK</button>
+    </div>
+    <div class="code2" id="code2">
+        <h1><input type="text" id="in2" placeholder="Code" autocomplete="off"></h1>
+        <button id="button2">UNLOCK</button>
+    </div>
+    <div class="code3" id="code3">
+        <h1><input type="text" id="in3" placeholder="Code" autocomplete="off"></h1>
+        <button id="button3">UNLOCK</button>
+    </div>
+    <div class="code4" id="code4">
+        <h1><input type="text" id="in4" placeholder="Code" autocomplete="off"></h1>
+        <button id="button4">UNLOCK</button>
+    </div>
+
+    <button class="object1" id="stol1">MOVE CHAIR</button>
+    <button class="object2" id="zakladBtn">OPEN CHEST</button>
+    <button class="object3" id="bucketBtn">MOVE BUCKET</button>
+    <button class="object4" id="nozBtn">LIFT KNIFE</button>
+    <div class="code5" id="chestCode">
+        <h1><input type="text" id="in5" placeholder="Code" autocomplete="off"></h1>
+        <button id="chestBtn">MOVE CHEST</button>
+    </div>
+    <button class="object6" id="leverBtn">SWITCH LEVER</button>
+    <button class="object7" id="bookBtn">INTERACT</button>
+    <div class="papir2" id="papir2">
+        <img src="../common/images/papir.jpg" alt="">
+        <div class="centered">
+            <h1>Clue</h1>
+            <h2>This is something you can find<br>
+            In a lake and in a stream<br>
+            When frozen it turns to ice<br>
+            When boiled it turns to steam<br>
+            Where do you store it?</h2>
+        </div>
+    </div>
+    <div class="papir3" id="papir3">
+        <img src="../common/images/papir.jpg" alt="">
+        <div class="centered">
+            <h1>YOU DON'T POSSESS A KEY TO OPEN THIS CHEST</h1>
+        </div>
+    </div>
+    <div class="papir4" id="papir4">
+        <img src="../common/images/papir.jpg" alt="">
+        <div class="centered">
+            <h1>CODE</h1>
+            <h2>4913</h2>
+        </div>
+    </div>
+    <div class="navodila1" id="navodila1">
+        <img src="../common/images/papir.jpg" alt="" class="slika">
+        <div class="centered">
+            <p>ArrowLeft-rotate left</p>
+            <p>ArrowRight-rotate right</p>
+            <p>ArrowUp-rotate up</p>
+            <p>ArrowDown-rotate down</p>
+        </div>
+    </div>
+    <div class="navodila2" id="navodila2">
+        <img src="../common/images/papir.jpg" alt="" class="slika">
+        <div class="centered">
+            <h2>ArrowLeft-rotate left</h2>
+            <h2>ArrowRight-rotate right</h2>
+            <h2>ArrowUp-rotate up</h2>
+            <h2>ArrowDown-rotate down</h2>
+            <h2>Open Book-KeyO</h2>
+        </div>
+    </div>
+</body>
+</html>

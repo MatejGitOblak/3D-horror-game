@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+body, html {
+    font-family: 'Kings', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen > * {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay1 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 80%;
+}
+
+.overlay2 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 80%;
+
+}
+
+.overlay3 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 80%;
+
+}
+
+.overlay4 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 80%;
+}
+
+.overlay5 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 80%;
+}
+
+.code1 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+}
+
+.code2 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+}
+
+.code3 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+}
+
+.code4 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+}
+
+.code5 {
+    display: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+}
+
+.papir1 {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+}
+
+.papir2 {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+}
+
+.papir3 {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+}
+
+.papir4 {
+    display: none;
+    margin: auto;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+}
+
+.object1 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object2 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object3 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object4 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object5 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object6 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.object7 {
+    display: none;
+    margin: auto;
+    width: 20%;
+    height: fit-content;
+    opacity: 0.8;
+    position: fixed;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+}
+
+.navodila1 {
+    display: none;
+    opacity: 0.8;
+    width: 30%;
+    position: fixed;
+    text-align: center;
+    top: 5%;
+}
+
+.navodila1 .centered {
+    position: fixed;
+    width: 15%;
+    top: 18%;
+    left: 15%;
+}
+
+.navodila1 p {
+    color: #000;
+}
+
+.slika {
+    width: 330px;
+}
+
+.navodila2 .slika {
+    width: 370px;
+    height: 340px;
+}
+
+.navodila2 {
+    display: none;
+    opacity: 0.8;
+    width: 30%;
+    position: fixed;
+    text-align: center;
+    top: 1%;
+}
+
+.navodila2 .centered {
+    position: fixed;
+    width: 15%;
+    top: 18%;
+    left: 15%;
+}
+
+
+.centered {
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+    font-family: 'Kings', cursive;
+    color: #000;
+}
+
+.centered h2 {
+    font-family: 'Kings', cursive;
+    color: #000;
+}
+
+.health-bar {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    float: right;
+    display: flex;
+    opacity: 0.8;
+    background-color: rgb(129, 129, 129);
+    justify-content: flex-end;
+}
+
+.health-bar img {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+.health-bar h1 {
+    color: #000;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+::placeholder {
+    color: #000;
+    opacity: 0.85;
+}
+
+h1 input {
+    font-size: 40px;
+}
+
+input {
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Kings', cursive;
+    background-color: rgb(211, 112, 0);
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(141, 74, 11);
+    font-family: 'Kings', cursive;
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 4px rgb(77, 57, 44);
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 0px rgb(109, 109, 109);
+}
+
+
+h1 {
+    color:rgb(255, 255, 255);
+}
+
+p {
+    color:rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+a.back {
+    display: block;
+    padding: 5px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+a.back:hover {
+    background: #ddd;
+}
